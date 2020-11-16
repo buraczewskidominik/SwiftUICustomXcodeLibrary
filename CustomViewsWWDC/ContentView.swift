@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Adding custom views to Xcode library")
+                .padding()
+                .multilineTextAlignment(.center)
+            SFSymbolView(sfSymbol: /*@START_MENU_TOKEN@*/SFSymbol(name: "Apple", imageName: "applelogo")/*@END_MENU_TOKEN@*/)
+            SFSymbolView(sfSymbol: /*@START_MENU_TOKEN@*/SFSymbol(name: "Apple", imageName: "applelogo")/*@END_MENU_TOKEN@*/, isRound: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+        }
     }
 }
 

@@ -13,6 +13,8 @@
 		0CA64EB0255D49A300C2D156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA64EAF255D49A300C2D156 /* Assets.xcassets */; };
 		0CA64EB3255D49A300C2D156 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA64EB2255D49A300C2D156 /* Preview Assets.xcassets */; };
 		0CA64EB6255D49A300C2D156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA64EB4255D49A300C2D156 /* LaunchScreen.storyboard */; };
+		0CA64EBF255D8AC600C2D156 /* SFSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA64EBE255D8AC600C2D156 /* SFSymbolView.swift */; };
+		0CA64EC2255D8B8700C2D156 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA64EC1255D8B8700C2D156 /* SFSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0CA64EB2255D49A300C2D156 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CA64EB5255D49A300C2D156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA64EB7255D49A300C2D156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA64EBE255D8AC600C2D156 /* SFSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolView.swift; sourceTree = "<group>"; };
+		0CA64EC1255D8B8700C2D156 /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0CA64EB4255D49A300C2D156 /* LaunchScreen.storyboard */,
 				0CA64EB7255D49A300C2D156 /* Info.plist */,
 				0CA64EB1255D49A300C2D156 /* Preview Content */,
+				0CA64EBE255D8AC600C2D156 /* SFSymbolView.swift */,
+				0CA64EC1255D8B8700C2D156 /* SFSymbol.swift */,
 			);
 			path = CustomViewsWWDC;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			files = (
 				0CA64EAA255D49A200C2D156 /* AppDelegate.swift in Sources */,
 				0CA64EAC255D49A200C2D156 /* SceneDelegate.swift in Sources */,
+				0CA64EC2255D8B8700C2D156 /* SFSymbol.swift in Sources */,
 				0CA64EAE255D49A200C2D156 /* ContentView.swift in Sources */,
+				0CA64EBF255D8AC600C2D156 /* SFSymbolView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
